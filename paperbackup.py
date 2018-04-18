@@ -53,10 +53,10 @@ text_y_offset = 8.2
 plaintext_maxlinechars = 73
 
 # the paperformat to use, activate the one you want
-paperformat_obj = document.paperformat.A4
-paperformat_str = "A4"
-# paperformat_obj=document.paperformat.Letter
-# paperformat_str="Letter"
+# paperformat_obj = document.paperformat.A4
+# paperformat_str = "A4"
+paperformat_obj=document.paperformat.Letter
+paperformat_str="Letter"
 
 
 def create_barcode(chunkdata):
